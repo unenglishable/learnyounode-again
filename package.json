@@ -1,0 +1,12 @@
+{
+  "name": "my_learnyounode",
+  "version": "0.0.0",
+  "repository": {
+    "type": "git"
+  },
+  "dependencies": {
+    "bl": "^0.8.2",
+    "strftime": "^0.8.1",
+    "through2-map": "^1.4.0"
+  }
+}
