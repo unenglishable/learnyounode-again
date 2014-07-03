@@ -5,12 +5,8 @@ module.exports = function (dir,ext,callback) {
   fs.readdir(dir, function (err, files) {
     if (err) return callback(err);
     else {
-      var matches = [];
-      files.forEach(function(file) {
-        if (path.extname(file) == '.'+ext) {
-          console.log(file);
-          matches.push(file);
-        }
+      var matches = files.filter(function(file) {
+        return path.extname(file) === '.'+ext;
       });
       callback(null,matches);
     }
