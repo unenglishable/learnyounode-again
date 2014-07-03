@@ -77,7 +77,9 @@ ex10:  TIME SERVER
 ex11:  HTTP FILE SERVER
 -----------------------
 
-* 
+* Create an HTTP file server to send
+  a single file on each connection
+  (Similar to tcp server)
 
 
 ex12:  HTTP UPPERCASERER
